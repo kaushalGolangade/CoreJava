@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-11T13:35:48 IST" name="Suite" finished-at="2022-12-11T13:36:13 IST" duration-ms="24606">
+    <groups>
+    </groups>
+    <test started-at="2022-12-11T13:35:48 IST" name="Test1" finished-at="2022-12-11T13:36:10 IST" duration-ms="22037">
+      <class name="TestNG.Paralleltest">
+        <test-method is-config="true" signature="initalization(java.lang.String)[pri:0, instance:TestNG.Paralleltest@20140db9]" started-at="2022-12-11T13:35:48 IST" name="initalization" finished-at="2022-12-11T13:36:01 IST" duration-ms="12704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="getTitle()[pri:0, instance:TestNG.Paralleltest@20140db9]" started-at="2022-12-11T13:36:01 IST" name="getTitle" finished-at="2022-12-11T13:36:06 IST" duration-ms="5024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.Paralleltest@20140db9]" started-at="2022-12-11T13:36:06 IST" name="tearDown" finished-at="2022-12-11T13:36:10 IST" duration-ms="4274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG.Paralleltest -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-12-11T13:35:48 IST" name="Test2" finished-at="2022-12-11T13:36:13 IST" duration-ms="24606">
+      <class name="TestNG.Paralleltest">
+        <test-method is-config="true" signature="initalization(java.lang.String)[pri:0, instance:TestNG.Paralleltest@663c9e7a]" started-at="2022-12-11T13:35:48 IST" name="initalization" finished-at="2022-12-11T13:36:04 IST" duration-ms="15230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="getTitle()[pri:0, instance:TestNG.Paralleltest@663c9e7a]" started-at="2022-12-11T13:36:04 IST" name="getTitle" finished-at="2022-12-11T13:36:09 IST" duration-ms="5020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.Paralleltest@663c9e7a]" started-at="2022-12-11T13:36:09 IST" name="tearDown" finished-at="2022-12-11T13:36:13 IST" duration-ms="4322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG.Paralleltest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
